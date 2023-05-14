@@ -12,7 +12,6 @@ $DomainsToBlock = @(
 ,"*.xyz"
 ,"*.zip"
 ,"*.ru"
-,"*.info"
 ) | sort
 
 function Refresh-DomainKeywords($DomainsToBlock)
