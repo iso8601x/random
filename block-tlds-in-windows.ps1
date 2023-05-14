@@ -1,12 +1,10 @@
 $RuleName = "Block outbound to undesirable domains"
 
 <#
-
  For domain resolution to work and start to populate the
  Addresses values in Get-NetFirewallDynamicKeywordAddress,
  "Windows Defender Advanced Threat Protection Service"
- must be running.
-
+ must be running. (yeah, it's a bit annoying)
 #>
 
 $DomainsToBlock = @(
